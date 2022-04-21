@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head> </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="">PHILOTES</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/login"
+              >Login</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLink="/registrar"
+              >Registrar</a
+            >
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Digite a raça aqui..."
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Procurar
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--FORMULARIO LOGIN-->
+
+
+  <div class="card" >
+
+    <div class="card-body">
+      <h5 class="card-title">LOGIN</h5>
+
+      <form class="row g-3">
+
+
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="nome@exemplo.com">
+        </div>
+
+
+
+     <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="inputPassword4">
+     </div>
+
+
+     <div class="form-check" id="manter-login-checkbox">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Manter Login
+      </label>
+    </div>
+
+
+
+    </form>
+
+
+      <br>
+      <a routerLink="/loginsucesso" class="btn btn-primary">Login</a>
+
+
+
+  </div>
+</div>
+</body>
+
