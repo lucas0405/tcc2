@@ -1,0 +1,45 @@
+
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* cartao */
+  .card1 {
+    float: left;
+    background-color: rgba(200, 243, 243, 0.527);
+    margin-left: 250px;
+    margin-top:50px;
+    width: 600px;
+    height: 700px;
+  }
+
+  .card2 {
+    float: right;
+    background-color: rgb(200, 243, 243);
+    margin-right: 250px;
+    margin-top:50px;
+    width: 600px;
+    height: 700px;
+  }
+/* titulo do card*/
+.card-title{
+  text-align: center;
+  margin-top: 15px;
+font-size: 35px;
+margin-left: 0px;
+}
+
+/* config do cartao*/
+.card-body{
+
+  margin-top: 300px;
+}
+/* barra de pesquisa*/
+.d-flex{
+  float:right;
+  margin-left: 1320px;
+  margin-right: 0px;
+}
+#AcheiPet{
+  text-align: center;
+}

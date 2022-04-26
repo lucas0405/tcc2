@@ -18,7 +18,11 @@ body{
   margin-left: 200px;
 }
 /* fim barra pesquissa */
-h1{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#manter-login-checkbox{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#arqfoto{
+  margin-left: 15px;
 }
 

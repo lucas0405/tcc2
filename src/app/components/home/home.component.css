@@ -2,12 +2,12 @@
 
 *{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
+
 /* cartao */
   .card1 {
     float: left;
-    background-color: rgb(200, 243, 243);
+    background-color: rgba(64, 156, 156, 0.527);
     margin-left: 250px;
     margin-top:50px;
     width: 600px;
@@ -15,7 +15,6 @@
   }
 
   .card2 {
-
     float: right;
     background-color: rgb(200, 243, 243);
     margin-right: 250px;
@@ -42,4 +41,55 @@ margin-left: 0px;
   margin-left: 1320px;
   margin-right: 0px;
 }
+.btnAcheiPet{
+  margin-top: 220px;
+  margin-left: 170px;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  width: 250px;
+  height: 70px;
+  border-radius: 18px;
+  border: 2px solid #000000;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btnAcheiPet:hover{
 
+  background-color: rgb(200, 243, 243); /* Green */
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btnAcheiPet2{
+  margin-top: 105px;
+  margin-left: 170px;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  width: 250px;
+  height: 70px;
+  border-radius: 18px;
+  border: 2px solid #000000;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btnAcheiPet2:hover{
+
+  background-color: rgb(200, 243, 243); /* Green */
+  color: rgb(0, 0, 0);
+  border: 2px solid #000000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ nav{
+  border: 1px solid #000000;
+ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
+}
+
+.nav-item:hover{
+  background-color:  #28a745;
+  text-decoration-color: #28a745;
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+.nav-item{
+  background-color:  #ffffff;
+  border: 2px solid #28a745;
+}

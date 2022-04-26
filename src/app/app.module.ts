@@ -7,6 +7,9 @@ import { LoginComponent } from './login/login.component';
 import { RegistrarComponent } from './registrar/registrar.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginSucessoComponent } from './login/login-sucesso/login-sucesso.component';
+import { AcheiPetComponent } from './achei-pet/achei-pet.component';
+import {HttpClientModule} from '@angular/common/http';
+import { PerdiPetComponent } from './perdi-pet/perdi-pet.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { LoginSucessoComponent } from './login/login-sucesso/login-sucesso.compo
     LoginComponent,
     RegistrarComponent,
     HomeComponent,
-    LoginSucessoComponent
+    LoginSucessoComponent,
+    AcheiPetComponent,
+    PerdiPetComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"></html>
-<head>
-
-</head>
+<head> </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" routerLink ="/home" >PHILOTES</a>
+      <a class="navbar-brand" routerLink="/home">PHILOTES</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="/login" >Login</a>
+            <a class="nav-link active" aria-current="page" routerLink="/login"
+              >Login</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="/registrar"
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLink="/registrar"
               >Registrar</a
             >
           </li>
@@ -26,7 +29,7 @@
             placeholder="Digite a raça aqui..."
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit" >
+          <button class="btn btn-outline-success" type="submit">
             Procurar
           </button>
         </form>
@@ -34,47 +37,44 @@
     </div>
   </nav>
 
-
-
   <!--Card Pet Pedido-->
   <div class="card1">
-    <h4 class="card-title">INSIRA A FOTO DO SEU PET AQUI</h4>
-    <div class="card-body">
-      <p class="card-text"></p>
-      <div class="mb-3">
-        <label for="formFile" class="form-label"></label>
-      </div>
-    </div>
-
-
-
-
-    <!--FORMULARIO-->
-
-    <div class="form-floating mb-3">
-      <input
-        type="email"
-        class="form-control"
-        id="floatingInput"
-        placeholder="name@example.com"
-      />
-      <label for="floatingInput">Email address</label>
-    </div>
-
-    <div class="form-floating">
-      <input
-        type="password"
-        class="form-control"
-        id="floatingPassword"
-        placeholder="Password"
-      />
-      <label for="floatingPassword">Password</label>
+    <div >
+      <button type="button" class="btnAcheiPet" routerLink="acheipet">
+        Achei um pet
+      </button>
+      <button type="button" class="btnAcheiPet2" routerLink="perdipet">
+        Perdi meu pet
+      </button>
     </div>
   </div>
-
+      <!-- Card 2 carrossel -->
   <div class="card2">
-    <h4 class="card-title">AQUI SERÁ ALGUMA OUTRA COISA...</h4>
 
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/img/cachorro3.png" class="d-block w-100" width="600px" height="700px">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/cachorro2.png" class="d-block w-100" width="500px" height="500px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/cachorro1.png" class="d-block w-100" width="500px" height="500px">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
-
 </body>
