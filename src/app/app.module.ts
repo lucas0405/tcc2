@@ -24,7 +24,8 @@ import { PerdiPetComponent } from './perdi-pet/perdi-pet.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

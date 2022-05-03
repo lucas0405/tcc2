@@ -79,17 +79,8 @@ margin-left: 0px;
   border: 2px solid #000000;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
- nav{
+/*  nav{
   border: 1px solid #000000;
  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
-}
+} */
 
-.nav-item:hover{
-  background-color:  #28a745;
-  text-decoration-color: #28a745;
-  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
-}
-.nav-item{
-  background-color:  #ffffff;
-  border: 2px solid #28a745;
-}
