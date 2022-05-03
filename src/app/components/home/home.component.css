@@ -42,6 +42,7 @@ margin-left: 0px;
   margin-right: 0px;
 }
 .btnAcheiPet{
+  text-align: center;
   margin-top: 220px;
   margin-left: 170px;
   background-color: rgb(255, 255, 255);
@@ -55,12 +56,13 @@ margin-left: 0px;
 }
 .btnAcheiPet:hover{
 
-  background-color: rgb(200, 243, 243); /* Green */
+  background-color: rgb(43, 224, 82); /* Green */
   color: rgb(0, 0, 0);
   border: 2px solid #000000;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.btnAcheiPet2{
+.btnPerdiPet{
+  text-align: center;
   margin-top: 105px;
   margin-left: 170px;
   background-color: rgb(255, 255, 255);
@@ -72,15 +74,79 @@ margin-left: 0px;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.btnAcheiPet2:hover{
+.btnPerdiPet:hover{
 
-  background-color: rgb(200, 243, 243); /* Green */
+  background-color: rgb(211, 31, 31); /* Green */
   color: rgb(0, 0, 0);
   border: 2px solid #000000;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/*  nav{
-  border: 1px solid #000000;
- box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
-} */
 
+.nav-item:hover{
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.001), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Botão bonito */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.botaoPet {
+  width: 250px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 70px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.botaoPet:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.botaoPet:focus {
+  outline: none;
+}
+
+.botaoPet.color-1 {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.botaoPet.color-2 {
+  background-image: linear-gradient(to right, #F01B00, #d90b20da, #D9410B, #F86D0C );
+  box-shadow: 0 4px 15px 0 rgba(196, 49, 49, 0.75);
+}
+/* fim botao bonito */
