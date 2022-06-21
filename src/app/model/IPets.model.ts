@@ -1,6 +1,7 @@
 export interface Pet {
     id?: number
     nome: string
+    cor: string
     raca: string
     porte: number
     sexo: number

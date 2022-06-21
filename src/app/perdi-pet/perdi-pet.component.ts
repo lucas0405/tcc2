@@ -21,6 +21,7 @@ export class PerdiPetComponent implements OnInit {
   addPet(
     name: string,
     breed: string,
+    color: string,
     size: any,
     gender: any,
     description: string,
@@ -34,6 +35,7 @@ export class PerdiPetComponent implements OnInit {
       var pet: Pet = {
         "nome": name,
         "raca": breed,
+        "cor" : color,
         "porte": size,
         "sexo": gender,
         "descricao": description,
@@ -61,7 +63,9 @@ export class PerdiPetComponent implements OnInit {
     }
   }
 
+  size(){
 
+  }
 
 
   private refreshComponent() {

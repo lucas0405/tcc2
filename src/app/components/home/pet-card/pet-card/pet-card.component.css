@@ -1,8 +1,8 @@
 
 /* cartao 1*/
 .card1 {
-  float: left;
-  background-color: rgba(64, 156, 156, 0.527);
+  float:left;
+  background-color: rgba(137, 238, 238, 0.527);
   margin-left: 100px;
   margin-top:50px;
   width: 400px;
@@ -16,7 +16,7 @@
   margin: 20px;
   width: 360px;
   height: 250px;
-  background-color: rgba(116, 119, 167, 0.281);
+  background-color: rgba(30, 44, 243, 0.281);
   border-radius: 35px ;
   box-shadow: 1px 1px 25px;
 }

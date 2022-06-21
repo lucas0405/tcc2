@@ -61,7 +61,7 @@ export class PetService {
     }
     return this.http.post(this.URL, body, options).pipe(
       map(pet => pet),
-      catchError(error => this.showError(PetServiceError.other1))
+      catchError(error => this.showError(PetServiceError.invalidPhoto))
     );
   }
 
@@ -83,8 +83,8 @@ export class PetService {
         case PetServiceError.other:
           this.showMessage('Erro!!!', 'Houve um erro ao adicionar o pet, por favor tente novamente.', "toast-error")
           break
-          case PetServiceError.other1:
-            this.showMessage('Erro!!!', 'aaaaaaaaaaaaaaaaaaHouve um erro ao adicionar o pet, por favor tente novamente.', "toast-error")
+          case PetServiceError.invalidPhoto:
+            this.showMessage('Erro!!!', 'Houve um erro ao adicionar o pet, por favor adicione uma foto do seu Pet.', "toast-error")
             break
     }
     return EMPTY;
@@ -98,5 +98,5 @@ export class PetService {
 export enum PetServiceError {
   invalidUser,
   other,
-  other1
+  invalidPhoto
 }

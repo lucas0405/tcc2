@@ -1,3 +1,4 @@
+import { Usuario } from 'src/app/model/IUsuario.model';
 import { Constants } from './../../../../../main';
 import { Component, Inject, Input, OnInit } from '@angular/core';
 import { Pet } from 'src/app/model/IPets.model';
@@ -12,6 +13,7 @@ import { UsuarioService } from 'src/app/services/usuario.service';
 export class PetCardComponent implements OnInit {
 
   @Input() pet!: Pet
+  @Input() user!: Usuario
 
   constructor(private service: UsuarioService,  private router: Router) { }
 

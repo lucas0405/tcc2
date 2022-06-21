@@ -5,7 +5,7 @@
 /* barra Perdi Pet*/
 .d-flex{
   float:right;
-  margin-left: 1320px;
+  margin-left: 120px;
   margin-right: 0px;
 }
 /* fim Perdi Pet */
@@ -14,7 +14,7 @@ body{
 }
 .card{
   width: 672px;
-  height: 600px;
+  height: 690px;
   margin-top: 100px;
   margin-left: 200px;
 
